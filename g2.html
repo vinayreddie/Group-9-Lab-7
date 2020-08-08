@@ -1,0 +1,317 @@
+<style>
+    .grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: 20px;
+    }
+    /* Non-grid specific CSS */
+    
+    body {
+        margin: 10px;
+        color: #374046;
+        background-color: #374046;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.15em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    .item {
+        background-color: #ffffff;
+    }
+    
+    .photothumb {
+        width: 100%;
+    }
+    
+    .title {
+        padding: 20px;
+    }
+    
+    .title h3 {
+        font-size: 1.2em;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .project .title {
+        background-color: #607D8B;
+    }
+    
+    .blog .title {
+        background-color: #ff9800;
+    }
+    
+    .photo .title {
+        background-color: #f44336;
+    }
+    
+    .desc {
+        padding: 10px 10px 5px 10px;
+    }
+    
+    .desc img {
+        width: 50%;
+        margin: 0 10px 10px 0;
+        float: left;
+    }
+    
+    .desc p {
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="grid">
+
+    <div class="item blog">
+        <div class="content">
+            <div class="title">
+                <h3>Menu</h3>
+            </div>
+            <div class="desc">
+                <div>
+                    <a href="" alt="home">
+                     Home
+                    </a><br>
+                    <a href="" alt="About Us">
+                        About US
+                       </a><br>
+                    <a href="" alt="Contact">
+                        Contact
+                       </a><br>
+                    <a href="" alt="Inspired From">
+                        Inspired From
+                       </a><br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item photo">
+        <div class="content">
+            <div class="title">
+                <h3>This pages was built using Grid Layout</h3>
+            </div>
+        </div>
+    </div>
+    <div class="item photo">
+        <div class="content">
+            <div class="title">
+                <h3>Group Photo</h3>
+            </div>
+            <img class="photothumb" src="1.jpeg">
+            <br>
+            <br>
+            <div class="desc">
+                <p>Lorem ipsum dolor sit amet, conse</p>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="item project">
+        <div class="content">
+            <div class="title">
+                <h3>Lab 1</h3>
+            </div>
+            <div class="desc">
+                <img src="github.png">
+                <p>This lab deals with the basics in github like creating and managing repositories</p>
+                <br>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="item project">
+        <div class="content">
+            <div class="title">
+                <h3>Lab 2</h3>
+            </div>
+            <div class="desc">
+                <img src="html.jpg">
+                <p>This lab deals with basics in html and css</p>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="item blog">
+        <div class="content">
+            <div class="title">
+                <h3>Lab 3</h3>
+            </div>
+            <div class="desc">
+                <p>Javascript Basics</p>
+            </div>
+        </div>
+    </div>
+    <div class="item project">
+        <div class="content">
+            <div class="title">
+                <h3>LAb 4</h3>
+            </div>
+            <div class="desc">
+                <img src="js.png">
+                <p>Table Edit Using JavaScript</p>
+                <br>
+                <br>
+
+            </div>
+        </div>
+    </div>
+    <div class="item blog">
+        <div class="content">
+            <div class="title">
+                <h3>Lab 5</h3>
+            </div>
+            <div class="desc">
+                <p>Float Layout CSS </p>
+            </div>
+        </div>
+    </div>
+    <div class="item photo">
+        <div class="content">
+            <div class="title">
+                <h3>GitHub Links</h3>
+            </div>
+            <img class="photothumb" src="gi.jpg">
+            <div class="desc">
+                <a href="https://github.com/mariasharmagbay/IM115Group1Lab1">
+                    Lab 1 <br>
+                        <a href="https://github.com/vinayreddie/Group-9-Lab-2" alt="Lab 2">
+                              Lab 2
+                              </a><br>
+                <a href="https://github.com/vaidehidarji1224/Group2Lab3" alt="Lab 3">
+                            Lab 3
+                              </a><br>
+                <a href="https://github.com/vinayreddie/Lab-4-Group-9" alt="Lab 4">
+                               Lab 4
+                              </a><br>
+                <a href="https://github.com/vinayreddie/Group-9-Lab-2" alt="Lab 5">
+                                Lab 5
+                                  </a><br>
+                <a href="https://github.com/vinayreddie/Group-9-Lab-2" alt="Project">
+                                  Project 1
+                                      </a><br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="item blog">
+        <div class="content">
+            <div class="title">
+                <h3>Lab 6</h3>
+            </div>
+            <div class="desc">
+                <p>FlexBox Property</p>
+            </div>
+        </div>
+    </div>
+    <div class="item photo">
+        <div class="content">
+            <div class="title">
+                <h3>Our College</h3>
+            </div>
+            <img class="photothumb" src="1.jpg">
+            <div class="desc">
+                <p>Confederation College</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br><br>
+            </div>
+        </div>
+    </div>
+    <div class="item project">
+        <div class="content">
+            <div class="title">
+                <h3>Project 1</h3>
+            </div>
+            <div class="desc">
+                <img src="survey.jpg">
+                <p>Survey Page</p>
+            </div>
+        </div>
+    </div>
+    <div class="item blog">
+        <div class="content">
+            <div class="title">
+                <h3>Lab 7</h3>
+            </div>
+            <div class="desc">
+                <p>Grid Layout</p>
+            </div>
+        </div>
+    </div>
+    <div class="item photo">
+        <div class="content">
+            <div class="title">
+                <h3>Group Members</h3>
+            </div>
+            <img class="photothumb" src="group.png">
+            <div class="desc">
+                <a href="https://github.com/vinayreddie">
+                    <h5>Vinay Reddy</h5>
+                </a>
+                <a href="https://github.com/prashanthyaddanapudi">
+                    <h5>Prashanth Yaddanapudi</h5>
+                </a>
+                <a href="https://github.com/anishahiwale">
+                    <h5>Anisha Hiwale</h5>
+                </a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="item photo">
+        <div class="content">
+            <div class="title">
+                <h3>Inspired From</h3>
+            </div>
+
+            <div class="desc">
+                <a href="https://medium.com/@andybarefoot/stretching-the-grid-5-fun-ways-to-use-css-grid-5931166f467f">Website Link</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    function resizeGridItem(item) {
+        grid = document.getElementsByClassName("grid")[0];
+        rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+        rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+        rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
+        item.style.gridRowEnd = "span " + rowSpan;
+    }
+
+    function resizeAllGridItems() {
+        allItems = document.getElementsByClassName("item");
+        for (x = 0; x < allItems.length; x++) {
+            resizeGridItem(allItems[x]);
+        }
+    }
+
+    function resizeInstance(instance) {
+        item = instance.elements[0];
+        resizeGridItem(item);
+    }
+
+    window.onload = resizeAllGridItems();
+    window.addEventListener("resize", resizeAllGridItems);
+
+    allItems = document.getElementsByClassName("item");
+    for (x = 0; x < allItems.length; x++) {
+        imagesLoaded(allItems[x], resizeInstance);
+    }
+</script>
